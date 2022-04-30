@@ -1,0 +1,3 @@
+this/is/path/to/image.jpg
+this/is/path/to/image.png
+this/is/path/to/video.mp4

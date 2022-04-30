@@ -1,0 +1,8 @@
+.env
+.env.docker
+*.sh
+logs
+sql-dump
+venv
+example-images
+example

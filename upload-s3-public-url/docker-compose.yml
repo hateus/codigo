@@ -1,0 +1,13 @@
+version: "3.7"
+services:
+  upload-s3:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    command: bash -c "sleep 5; python script.py"
+    network_mode: host
+    volumes:
+      - ./:/code
+    env_file:
+      - .env.docker
